@@ -18,7 +18,7 @@ export const projectsData = [
     {
         id: 2,
         image: Project2,
-        title: "Pomodoro clock",
+        title: "Pomodoro clock app",
         url: "https://marcofalotico.github.io/5_25-5_Clock_App_JS_jQuery/",
         category: "Web Development",
     },
