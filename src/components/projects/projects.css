@@ -51,6 +51,7 @@
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+    cursor: pointer;
 }
 
 .project__button-icon {
