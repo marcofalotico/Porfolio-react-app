@@ -41,7 +41,7 @@ const Projects = () => {
             <div className="project__container container grid">
                 {projects.map((item) => {
                     return <ProjectItems item={item} key={item.id}/>
-                })}
+                }).reverse()}
             </div>
         </div>
     );
