@@ -28,6 +28,13 @@ const Frontend = () => {
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Redux</h3>
+                            <span className="skills__level">Basic</span>
+                        </div>
+                    </div>
                 </div>
                 <div className="skills__group">
                     <div className="skills__data">
@@ -40,15 +47,22 @@ const Frontend = () => {
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
-                            <h3 className="skills__name">Typescript</h3>
+                            <h3 className="skills__name">GitHub</h3>
+                            <span className="skills__level">Intermediate</span>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">React.js</h3>
                             <span className="skills__level">Basic</span>
                         </div>
                     </div>
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
-                            <h3 className="skills__name">React</h3>
-                            <span className="skills__level">Basic</span>
+                            <h3 className="skills__name">Maplibre GL JS</h3>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
                 </div>

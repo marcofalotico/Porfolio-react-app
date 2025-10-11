@@ -6,6 +6,8 @@ import Project5 from "../../assets/project5.webp";
 import Project6 from "../../assets/project6.webp";
 import Project7 from "../../assets/project7.webp";
 import Project8 from "../../assets/project8.webp";
+import Project9 from "../../assets/paradigma_desktop.png";
+import Project10 from "../../assets/aliante_2.png";
 
 
 export const projectsData = [ 
@@ -64,6 +66,20 @@ export const projectsData = [
         title: "@ilbotanicalbar",
         url: "https://instagram.com/ilbotanicalbar?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr",
         category: "Content Creation",
+    },
+    {
+        id: 9,
+        image: Project9,
+        title: "PARADIGMA",
+        url: "https://paradigma.ithaca.earth/",
+        category: "Web Development",
+    },
+    {
+        id: 10,
+        image: Project10,
+        title: "ALIANTE",
+        url: "http://aliante.ithaca.earth/",
+        category: "Web Development",
     }
 ];
 

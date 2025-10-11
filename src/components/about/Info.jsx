@@ -7,12 +7,12 @@ const Info = () => {
         <div className="about__box">
             <HiOutlineDesktopComputer className="about__icon" />
             <h3 className="about__title">Experience</h3>
-            <span className="about__subtitle">1+ year Dev<br />4+ year Creator</span>
+            <span className="about__subtitle">3+ year Dev<br />6+ year Creator</span>
         </div>
         <div className="about__box">
             <HiOutlineTerminal className="about__icon" />
             <h3 className="about__title">Completed</h3>
-            <span className="about__subtitle">Web Apps (5+)<br />Business (3+)</span>
+            <span className="about__subtitle">Web Apps (7+)<br />Business (3+)</span>
         </div>
         <div className="about__box">
             <HiOutlineSparkles className="about__icon" />
