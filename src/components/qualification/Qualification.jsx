@@ -3,7 +3,7 @@ import "./qualification.css";
 import { HiOutlineAcademicCap, HiOutlineBriefcase, HiOutlineCalendar } from "react-icons/hi";
 
 const Qualification = () => {
-    const [toggleState, setToggleState] = useState(1)
+    const [toggleState, setToggleState] = useState(2); // 1 per evidenziare "Education", 2 per "Experience"
 
     const toggleTab = (index) => {
         setToggleState(index);

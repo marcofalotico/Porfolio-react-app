@@ -8,6 +8,13 @@ import Project7 from "../../assets/project7.webp";
 import Project8 from "../../assets/project8.webp";
 import Project9 from "../../assets/paradigma_desktop.png";
 import Project10 from "../../assets/aliante_2.png";
+import Project11 from "../../assets/hvt_desktop.png";
+import Project12 from "../../assets/ithachess_desktop.png";
+import Project13 from "../../assets/planora_mobile.png";
+
+/* per i prossimi media, fai fare a chat gpt con il seguente prompt: */
+/* creami un immagine 1380x920px su sfondo grigio (#e3e3e3) con l'immagine dello screen 2 all'interno della cover iphone dello screen 1 */
+/* la cover png la trovi in src con nome file: "cover_iphone.png" */
 
 
 export const projectsData = [ 
@@ -80,7 +87,29 @@ export const projectsData = [
         title: "ALIANTE",
         url: "http://aliante.ithaca.earth/",
         category: "Web Development",
-    }
+    },
+    {
+        id: 11,
+        image: Project11,
+        title: "HVT Settimo",
+        url: "http://hvt.ithaca.earth/",
+        category: "Web Development",
+    },
+    {
+        id: 12,
+        image: Project12,
+        title: "Ithachess",
+        url: "http://ithakaru.ithaca.earth:5173/",
+        category: "Web Development",
+    },
+    {
+        id: 13,
+        image: Project13,
+        title: "PLANORA",
+        url: "https://ristrutturazione-budget.netlify.app/login",
+        category: "Web Development",
+    },
+
 ];
 
 export const projectsNav = [

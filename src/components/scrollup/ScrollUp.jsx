@@ -10,7 +10,14 @@ const ScrollUp = () => {
     });
   
     return (
-    <a href="#" className="scrollup"><HiOutlineArrowSmUp className="scrollup__icon"/></a>
+      <button
+        type="button"
+        className="scrollup"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        aria-label="Torna in alto"
+      >
+        <HiOutlineArrowSmUp className="scrollup__icon"/>
+      </button>
   );
 }
 
